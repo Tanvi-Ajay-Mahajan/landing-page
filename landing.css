@@ -94,10 +94,18 @@ h3{
     border-color: rgb(158, 3, 248);
     transform: scale(1.1);
 }
+h2{
+    font-size: 1.9rem;
+    position: absolute;
+    left:34%;
+    top:194%;
+    color: azure;
+    background-color: black;
+}
 button{
     position: absolute;
     left: 45%;
-    top:196%;
+    top:203%;
     border: 5px solid rgb(214, 95, 178); /* Added border width here */
     border-radius: 15px;
     font-size: 2.5rem;
@@ -113,3 +121,13 @@ button:hover {
     transform: scale(1.1);
    
   }
+footer{
+    background-color: rgb(15, 15, 15);
+    font-size: 1.2rem;
+    color: rgb(241, 64, 167);
+    text-align: center;
+    width: 98%;
+    position: absolute;
+    top:215%;
+    padding: 1rem;
+}  
