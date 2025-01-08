@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+}
+nav{
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing:430px;
+    font-size: 2.2rem;
+    padding: 2.5%;
+}
+.nav-link:hover {
+    font-display: underline;
+    color:rgb(158, 5, 247) ;
+}
+img{
+    padding-left: 7px;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.div1{
+    padding: 1%;
+    position: absolute;
+    top:104%;
+    left:5%;
+    width: 35%;
+    height: 32%;
+    border: 5px solid rgb(214, 95, 178); /* Added border width here */
+    border-radius: 5px ;
+    color: azure;
+    font-size: 1.7rem;
+    overflow: hidden; /* To hide any overflow from pseudo-elements */
+    transition: all .2s ease-in-out; /* Smooth transition for the div */
+}
+.div1:hover {
+    border-color: rgb(158, 5, 247);
+    transform: scale(1.1);
+}
+  
+.div2{
+    padding: 1%;
+    position: absolute;
+    top:104%;
+    left:55%;
+    width: 35%;
+    height: 32%;
+    border: 5px solid rgb(214, 95, 178); /* Added border width here */
+    border-radius: 5px ;
+    color: azure;
+    font-size: 1.7rem;
+    overflow: hidden; /* To hide any overflow from pseudo-elements */
+    transition: all .2s ease-in-out;
+}
+.div2:hover {
+    border-color: rgb(158, 3, 248);
+    transform: scale(1.1);
+}
+
+.div3{
+    padding: 1%;
+    position: absolute;
+    top:150%;
+    left:5%;
+    width: 35%;
+    height: 32%;
+    border: 5px solid rgb(214, 95, 178); /* Added border width here */
+    border-radius: 5px ;
+    color: azure;
+    font-size: 1.7rem;
+    overflow: hidden; /* To hide any overflow from pseudo-elements */
+    transition: all .2s ease-in-out; 
+}
+.div3:hover {
+    border-color: rgb(158, 3, 248);
+    transform: scale(1.1);
+}
+
+.div4{
+    padding: 1%;
+    position: absolute;
+    top:150%;
+    left:55%;
+    width: 35%;
+    height: 32%;
+    border: 5px solid rgb(214, 95, 178); /* Added border width here */
+    border-radius: 5px;
+    color: azure;
+    font-size: 1.7rem;
+    overflow: hidden; /* To hide any overflow from pseudo-elements */
+    transition: all .2s ease-in-out;
+}
+.div4:hover {
+    border-color: rgb(158, 3, 248);
+    transform: scale(1.1);
+}
+button{
+    position: absolute;
+    left: 45%;
+    top:196%;
+    border: 5px solid rgb(214, 95, 178); /* Added border width here */
+    border-radius: 15px;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 18px;
+    background-color: black;
+    color: azure;
+    overflow: hidden; /* To hide any overflow from pseudo-elements */
+    transition: all .2s ease-in-out;
+}
+button:hover {
+    border-color: rgb(158, 3, 248);
+    transform: scale(1.1);
+   
+  }
